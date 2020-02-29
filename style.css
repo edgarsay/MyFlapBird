@@ -1,0 +1,55 @@
+@font-face{
+    font-family: undertale;
+    src: url(font/DeterminationMonoWeb.woff);
+}
+
+.center{
+    width: 320px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    position: relative;
+}
+
+.container *{
+    position: absolute;
+}
+
+.curtain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    width: 320px;
+    height: 480px;
+    background-color: white;
+}
+
+.background {
+    opacity: 1;
+    z-index: -1;
+    left: 0;
+    transition: left 0.5s ease-in-out;
+}
+
+.on {
+    opacity: 1;
+    transition: opacity 2s;
+}
+.off {
+    opacity: 0;
+}
+
+.slideup{
+    left: 320px;
+    transition: left 0.5s ease-in-out;
+}
+.slidedown {
+    left: 0;
+    transition: left 0.5s ease-in-out;
+}

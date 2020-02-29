@@ -1,0 +1,36 @@
+game.eventInput(input)->display.eventInput(input)->[menu[input]()/controll[input()]];
+
+-----------------------------------------------------------------------------------
+//!TODO:
+- [x] centera lizar o jogo atravez de um div 'center'
+
+- [x] criar uma classe Value que mostre o valor atual de uma varivel;
+    - [x] fazer um classe Value que substitua o speedValue e o jumpValue
+    - [x] colocar o Value as a atribute of Menu
+
+- [x] tornar o menu dinamico Menu:
+    A invez de usar um Sprite do menu completo, use uma moudura
+    desenhada em loop e dentro dela um texto, fornecido por um array.
+
+- [x] criar atributo "controlls" in class Game, que indicam os controles validos;
+
+- [x] suporte a joystick/gamepad
+
+- [x] Por as funções 'draw','loop', 'update' dentro da classe 'Game'
+
+- [x] fazer com que os valores mudados jumpValue e speedValue mudem tbm os valores dos sprites;
+
+-> [] criar classe 'Piece':
+    * "integra Sprite e HitBox";
+    * "diz como este elementos vão se comportar";(não é prioridade)
+    * "deve mostrar o fisico do jg, colisões, etc",(não é prioridade)
+
+
+- [] definir o escopo da classe Sprite:
+    "deve se encaregar apenas de mostrar um imagem, nada +";
+
+- [] seleção no menu atravez do mouse ref: https://www.youtube.com/watch?v=DEHsr4XicN8
+
+- [] 'Game' + zoom(x = 0,y = 0,porcent 1):
+    * "mudar o context.scale dos displays 'on' para mostrar apena um parte do canvas";
+
